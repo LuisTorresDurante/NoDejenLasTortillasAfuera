@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+body{
+    background-image: url(https://images.wallpaperscraft.com/image/single/milky_way_starry_sky_stars_128523_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 2;
+}
+
+
+
+
+
+#imagen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 50vw;
+    height: 50vh;
+    object-fit: contain;
+    opacity: .7;
+  }
+  
+  
+
+.text{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    color: blanchedalmond;
+    opacity: 80%;
+    position: absolute;
+    
+}
+#title{
+    position: absolute;
+    font-size: xx-large;
+    font-family: 'Poltawski Nowy', serif;
+    
+    bottom: 20%;
+    left: 5%;
+}
+#subtitle{
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Freehand', cursive;
+    bottom: 15%;
+    left: 5%;
+}   
+#quote{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
